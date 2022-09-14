@@ -3,7 +3,6 @@ import { Routes, Route, Outlet } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
-import Homepage from './components/Homepage';
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 import PasswordRecovery from './components/ForgotPassword';
@@ -22,14 +21,15 @@ export default function App() {
                     element={
                         <>
                             <Navbar />
+                            <hr />
                             <Outlet />
                         </>
                     }
                 >
-                    <Route path="" element={<Homepage />} />
+                    <Route path="/" element={<Instruments type="stock" key="stocks" />} />
+                    <Route path="stocks" element={<Instruments type="stock" key="stocks" />} />
                     <Route path="currencies" element={<Instruments type="currency" key="currencies" />} />
                     <Route path="cryptocurrencies" element={<Instruments type="cryptocurrency" key="cryptocurrencies" />} />
-                    <Route path="stocks" element={<Instruments type="stock" key="stocks" />} />
                     <Route element={<PersistLogin />}>
                         <Route element={<RequireAuth />}>
                             <Route path="portfolio" element={<Portfolio />} />

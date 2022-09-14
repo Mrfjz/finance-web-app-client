@@ -1,0 +1,67 @@
+{
+    "overview": [
+        {
+            "code": "BTC-USD",
+            "name": "Bitcoin USD",
+            "type": "cryptocurrency",
+            "lastPrice": 20000,
+            "change": -175,
+            "percentageChange": -0.0087,
+            "precision": 0,
+            "intraDayMinPrice": 19544,
+            "intraDayMaxPrice": 20049,
+            "intraYearMinPrice": 18669,
+            "intraYearMaxPrice": 68925
+        },
+        {
+            "code": "ETH-USD",
+            "name": "Ethereum USD",
+            "type": "cryptocurrency",
+            "lastPrice": 1452.35,
+            "change": -31.12,
+            "percentageChange": -0.021,
+            "precision": 2,
+            "intraDayMinPrice": 1423.86,
+            "intraDayMaxPrice": 1491.19,
+            "intraYearMinPrice": 1000.52,
+            "intraYearMaxPrice": 4865.81
+        },
+        {
+            "code": "USD-HKD",
+            "name": "Hong Kong dollar",
+            "type": "currency",
+            "lastPrice": 7.8475,
+            "change": 0.0009,
+            "percentageChange": 0.0001,
+            "precision": 4,
+            "intraDayMinPrice": 7.83,
+            "intraDayMaxPrice": 7.84,
+            "intraYearMinPrice": 7.77,
+            "intraYearMaxPrice": 7.85
+        },
+        {
+            "code": "AAPL",
+            "name": "Apple Inc.",
+            "type": "stock",
+            "lastPrice": 163.62,
+            "change": -6.41,
+            "percentageChange": -0.0377,
+            "precision": 2,
+            "intraDayMinPrice": 163.56,
+            "intraDayMaxPrice": 171.04,
+            "intraYearMinPrice": 129.04,
+            "intraYearMaxPrice": 182.94
+        }
+    ],
+
+    "instruments": [
+        {
+            "code": "AAPL",
+            "label": "Apple Inc."
+        },
+        {
+            "code": "USD-HKD",
+            "label": "Hong Kong dollar"
+        }
+    ]
+}

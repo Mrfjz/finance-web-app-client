@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
-import SearchIcon from '@mui/icons-material/Search';
-import CloseIcon from '@mui/icons-material/Close';
-import Link from '../shared/Link';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import { useNavigate } from 'react-router-dom';
@@ -22,16 +18,14 @@ const SearchBar = () => {
         url: '/instruments'
     });
     const navigate = useNavigate();
-    const label = 'Instrument';
+    const label = 'Symbol / Name';
 
     return (
         <Autocomplete
             disablePortal
-            // value={searchWord}
-            id="combo-box-demo"
             options={data || []}
             clearOnEscape={true}
-            sx={{ width: 300 }}
+            sx={{ width: '80%' }}
             onChange={(e, value: any, reason) => {
                 if (reason === 'selectOption') {
                     setSearchWord({ label: '' });
