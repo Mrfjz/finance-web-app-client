@@ -4,13 +4,13 @@
             "code": "BTC-USD",
             "name": "Bitcoin USD",
             "type": "cryptocurrency",
-            "lastPrice": 20000,
-            "change": -175,
-            "percentageChange": -0.0087,
             "precision": 0,
-            "intraDayMinPrice": 19544,
-            "intraDayMaxPrice": 20049,
-            "intraYearMinPrice": 18669,
+            "lastPrice": 20372,
+            "change": 118,
+            "percentageChange": 0.005792263892,
+            "intraDayMinPrice": 19957,
+            "intraDayMaxPrice": 20487,
+            "intraYearMinPrice": 18582,
             "intraYearMaxPrice": 68925,
             "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png"
         },
@@ -18,52 +18,764 @@
             "code": "ETH-USD",
             "name": "Ethereum USD",
             "type": "cryptocurrency",
-            "lastPrice": 1452.35,
-            "change": -31.12,
-            "percentageChange": -0.021,
             "precision": 2,
-            "intraDayMinPrice": 1423.86,
-            "intraDayMaxPrice": 1491.19,
-            "intraYearMinPrice": 1000.52,
-            "intraYearMaxPrice": 4865.81,
+            "lastPrice": 1622,
+            "change": 14.5,
+            "percentageChange": 0.008939580764,
+            "intraDayMinPrice": 1564.85,
+            "intraDayMaxPrice": 1620.27,
+            "intraYearMinPrice": 896.11,
+            "intraYearMaxPrice": 4891.7,
             "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
+        },
+        {
+            "code": "DOGE-USD",
+            "name": "Dogecoin USD",
+            "type": "cryptocurrency",
+            "precision": 6,
+            "lastPrice": 0.060709,
+            "change": 0.000249,
+            "percentageChange": 0.004101533545,
+            "intraDayMinPrice": 0.059566,
+            "intraDayMaxPrice": 0.060767,
+            "intraYearMinPrice": 0.04972,
+            "intraYearMaxPrice": 0.338843,
+            "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/74.png"
+        },
+        {
+            "code": "XRP-USD",
+            "name": "XRP USD",
+            "type": "cryptocurrency",
+            "precision": 4,
+            "lastPrice": 0.337,
+            "change": -0.0005,
+            "percentageChange": -0.001483679525,
+            "intraDayMinPrice": 0.332549,
+            "intraDayMaxPrice": 0.337094,
+            "intraYearMinPrice": 0.290579,
+            "intraYearMaxPrice": 1.347662,
+            "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png"
+        },
+        {
+            "code": "LTC-USD",
+            "name": "Litecoin USD",
+            "type": "cryptocurrency",
+            "precision": 4,
+            "lastPrice": 60.14,
+            "change": 0.81,
+            "percentageChange": 0.01346857333,
+            "intraDayMinPrice": 58.96,
+            "intraDayMaxPrice": 60.1,
+            "intraYearMinPrice": 40.68,
+            "intraYearMaxPrice": 294.56,
+            "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/2.png"
+        },
+        {
+            "code": "USD-EUR",
+            "name": "Euro",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 1.0017,
+            "change": -0.0011,
+            "percentageChange": -0.001098133174,
+            "intraDayMinPrice": 1.0015,
+            "intraDayMaxPrice": 1.0016,
+            "intraYearMinPrice": 0.8451,
+            "intraYearMaxPrice": 1.0138,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-JPY",
+            "name": "Japanese yen",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 143.82,
+            "change": -0.74,
+            "percentageChange": -0.00514532054,
+            "intraDayMinPrice": 143.54,
+            "intraDayMaxPrice": 144.96,
+            "intraYearMinPrice": 109.11,
+            "intraYearMaxPrice": 145,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-GBP",
+            "name": "Pound sterling",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 0.8691,
+            "change": -0.0008,
+            "percentageChange": -0.0009204924635,
+            "intraDayMinPrice": 0.8671,
+            "intraDayMaxPrice": 0.8709,
+            "intraYearMinPrice": 0.7218,
+            "intraYearMaxPrice": 0.8769,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-AUD",
+            "name": "Australian dollar",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 1.4864,
+            "change": 0.0007,
+            "percentageChange": 0.0004709364909,
+            "intraDayMinPrice": 1.4818,
+            "intraDayMaxPrice": 1.4873,
+            "intraYearMinPrice": 1.3051,
+            "intraYearMaxPrice": 1.4968,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-NZD",
+            "name": "New Zealand dollar",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 1.6678,
+            "change": 0.001,
+            "percentageChange": 0.0005995922773,
+            "intraDayMinPrice": 1.6633,
+            "intraDayMaxPrice": 1.6695,
+            "intraYearMinPrice": 1.3851,
+            "intraYearMaxPrice": 1.6705,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-CAD",
+            "name": "Canadian dollar",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 1.3184,
+            "change": 0.0018,
+            "percentageChange": 0.001365291262,
+            "intraDayMinPrice": 1.3157,
+            "intraDayMaxPrice": 1.3189,
+            "intraYearMinPrice": 1.2288,
+            "intraYearMaxPrice": 1.3225,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-CHF",
+            "name": "Swiss franc",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 0.9609,
+            "change": -0.0004,
+            "percentageChange": -0.0004162764075,
+            "intraDayMinPrice": 0.96,
+            "intraDayMaxPrice": 0.9628,
+            "intraYearMinPrice": 0.9086,
+            "intraYearMaxPrice": 1.0066,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-CNY",
+            "name": "Renminbi",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 6.925,
+            "change": 0.0379,
+            "percentageChange": 0.005472924188,
+            "intraDayMinPrice": 6.925,
+            "intraDayMaxPrice": 6.9714,
+            "intraYearMinPrice": 6.3046,
+            "intraYearMaxPrice": 6.9801,
+            "iconUrl": ""
         },
         {
             "code": "USD-HKD",
             "name": "Hong Kong dollar",
             "type": "currency",
-            "lastPrice": 7.8475,
-            "change": 0.0009,
-            "percentageChange": 0.0001,
             "precision": 4,
-            "intraDayMinPrice": 7.83,
-            "intraDayMaxPrice": 7.84,
-            "intraYearMinPrice": 7.77,
-            "intraYearMaxPrice": 7.85
+            "lastPrice": 7.8484,
+            "change": -0.0006,
+            "percentageChange": -0.00007644870292,
+            "intraDayMinPrice": 7.8484,
+            "intraDayMaxPrice": 7.85,
+            "intraYearMinPrice": 7.7724,
+            "intraYearMaxPrice": 7.8505,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-SGD",
+            "name": "Singapore dollar",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 1.406,
+            "change": -0.0006,
+            "percentageChange": -0.000426742532,
+            "intraDayMinPrice": 1.404,
+            "intraDayMaxPrice": 1.407,
+            "intraYearMinPrice": 1.3404,
+            "intraYearMaxPrice": 1.4109,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-INR",
+            "name": "Indian rupee",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 79.512,
+            "change": -0.088,
+            "percentageChange": -0.001106751182,
+            "intraDayMinPrice": 79.471,
+            "intraDayMaxPrice": 79.831,
+            "intraYearMinPrice": 73.335,
+            "intraYearMaxPrice": 80.235,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-MYR",
+            "name": "Malaysian ringgit",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 4.527,
+            "change": 0.021,
+            "percentageChange": 0.004638833665,
+            "intraDayMinPrice": 4.508,
+            "intraDayMaxPrice": 4.527,
+            "intraYearMinPrice": 4.139,
+            "intraYearMaxPrice": 4.527,
+            "iconUrl": ""
+        },
+        {
+            "code": "USD-RUB",
+            "name": "Russian ruble",
+            "type": "currency",
+            "precision": 4,
+            "lastPrice": 59.9855,
+            "change": 0.0855,
+            "percentageChange": 0.001425344458,
+            "intraDayMinPrice": 59.9,
+            "intraDayMaxPrice": 60.1035,
+            "intraYearMinPrice": 50.1006,
+            "intraYearMaxPrice": 158.3,
+            "iconUrl": ""
         },
         {
             "code": "AAPL",
             "name": "Apple Inc.",
             "type": "stock",
-            "lastPrice": 163.62,
-            "change": -6.41,
-            "percentageChange": -0.0377,
             "precision": 2,
-            "intraDayMinPrice": 163.56,
-            "intraDayMaxPrice": 171.04,
+            "lastPrice": 153.84,
+            "change": -9.030408,
+            "percentageChange": -0.0587,
+            "intraDayMinPrice": 153.38,
+            "intraDayMaxPrice": 160.54,
             "intraYearMinPrice": 129.04,
-            "intraYearMaxPrice": 182.94
+            "intraYearMaxPrice": 182.94,
+            "iconUrl": ""
+        },
+        {
+            "code": "MSFT",
+            "name": "Microsoft Corporation",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 251.99,
+            "change": -13.85945,
+            "percentageChange": -0.055,
+            "intraDayMinPrice": 251.6,
+            "intraDayMaxPrice": 260.4,
+            "intraYearMinPrice": 241.51,
+            "intraYearMaxPrice": 349.67,
+            "iconUrl": ""
+        },
+        {
+            "code": "GOOG",
+            "name": "Alphabet Inc.",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 105.31,
+            "change": -6.171166,
+            "percentageChange": -0.0586,
+            "intraDayMinPrice": 105,
+            "intraDayMaxPrice": 109.37,
+            "intraYearMinPrice": 102.21,
+            "intraYearMaxPrice": 152.1,
+            "iconUrl": ""
+        },
+        {
+            "code": "AMZN",
+            "name": "Amazon",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 126.82,
+            "change": -8.953492,
+            "percentageChange": -0.0706,
+            "intraDayMinPrice": 126.28,
+            "intraDayMaxPrice": 131.4,
+            "intraYearMinPrice": 101.26,
+            "intraYearMaxPrice": 188.11,
+            "iconUrl": ""
+        },
+        {
+            "code": "TSLA",
+            "name": "Tesla, Inc.",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 292.13,
+            "change": -11.802052,
+            "percentageChange": -0.0404,
+            "intraDayMinPrice": 290.4,
+            "intraDayMaxPrice": 297.4,
+            "intraYearMinPrice": 206.86,
+            "intraYearMaxPrice": 414.5,
+            "iconUrl": ""
+        },
+        {
+            "code": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 278.29,
+            "change": -9.851466,
+            "percentageChange": -0.0354,
+            "intraDayMinPrice": 277.5,
+            "intraDayMaxPrice": 285.14,
+            "intraYearMinPrice": 263.68,
+            "intraYearMaxPrice": 362.1,
+            "iconUrl": ""
+        },
+        {
+            "code": "UNH",
+            "name": "UnitedHealth Group",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 513.96,
+            "change": -16.7037,
+            "percentageChange": -0.0325,
+            "intraDayMinPrice": 511.97,
+            "intraDayMaxPrice": 525.26,
+            "intraYearMinPrice": 383.12,
+            "intraYearMaxPrice": 553.29,
+            "iconUrl": ""
+        },
+        {
+            "code": "JNJ",
+            "name": "Johnson & Johnson",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 161.33,
+            "change": -4.19458,
+            "percentageChange": -0.026,
+            "intraDayMinPrice": 160.81,
+            "intraDayMaxPrice": 164.44,
+            "intraYearMinPrice": 155.72,
+            "intraYearMaxPrice": 186.69,
+            "iconUrl": ""
+        },
+        {
+            "code": "V",
+            "name": "Visa Inc.",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 199.67,
+            "change": -6.728879,
+            "percentageChange": -0.0337,
+            "intraDayMinPrice": 198.87,
+            "intraDayMaxPrice": 203.47,
+            "intraYearMinPrice": 185.91,
+            "intraYearMaxPrice": 236.96,
+            "iconUrl": ""
+        },
+        {
+            "code": "META",
+            "name": "Meta Platforms",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 153.13,
+            "change": -14.348281,
+            "percentageChange": -0.0937,
+            "intraDayMinPrice": 152.67,
+            "intraDayMaxPrice": 161.45,
+            "intraYearMinPrice": 152.67,
+            "intraYearMaxPrice": 377.56,
+            "iconUrl": ""
+        },
+        {
+            "code": "XOM",
+            "name": "Exxon Mobil Corporation",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 95.33,
+            "change": -2.230722,
+            "percentageChange": -0.0234,
+            "intraDayMinPrice": 94.91,
+            "intraDayMaxPrice": 97.78,
+            "intraYearMinPrice": 52.96,
+            "intraYearMaxPrice": 105.57,
+            "iconUrl": ""
+        },
+        {
+            "code": "WMT",
+            "name": "Walmart",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 135.22,
+            "change": -2.785532,
+            "percentageChange": -0.0206,
+            "intraDayMinPrice": 134.81,
+            "intraDayMaxPrice": 137.95,
+            "intraYearMinPrice": 117.27,
+            "intraYearMaxPrice": 160.77,
+            "iconUrl": ""
+        },
+        {
+            "code": "JPM",
+            "name": "JPMorgan Chase",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 116.39,
+            "change": -4.038733,
+            "percentageChange": -0.0347,
+            "intraDayMinPrice": 115.78,
+            "intraDayMaxPrice": 118.92,
+            "intraYearMinPrice": 106.06,
+            "intraYearMaxPrice": 172.96,
+            "iconUrl": ""
+        },
+        {
+            "code": "PG",
+            "name": "Procter & Gamble",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 138.18,
+            "change": -2.860326,
+            "percentageChange": -0.0207,
+            "intraDayMinPrice": 137.86,
+            "intraDayMaxPrice": 141.43,
+            "intraYearMinPrice": 129.5,
+            "intraYearMaxPrice": 165.35,
+            "iconUrl": ""
+        },
+        {
+            "code": "NVDA",
+            "name": "Nvidia",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 131.31,
+            "change": -12.435057,
+            "percentageChange": -0.0947,
+            "intraDayMinPrice": 130.99,
+            "intraDayMaxPrice": 139.22,
+            "intraYearMinPrice": 130.99,
+            "intraYearMaxPrice": 346.47,
+            "iconUrl": ""
+        },
+        {
+            "code": "MA",
+            "name": "Mastercard Incorporated",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 325.44,
+            "change": -12.496896,
+            "percentageChange": -0.0384,
+            "intraDayMinPrice": 324.58,
+            "intraDayMaxPrice": 332.8,
+            "intraYearMinPrice": 303.65,
+            "intraYearMaxPrice": 399.92,
+            "iconUrl": ""
+        },
+        {
+            "code": "CVX",
+            "name": "Chevron Corporation",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 159.41,
+            "change": -3.02879,
+            "percentageChange": -0.019,
+            "intraDayMinPrice": 158.74,
+            "intraDayMaxPrice": 162.66,
+            "intraYearMinPrice": 93.31,
+            "intraYearMaxPrice": 182.4,
+            "iconUrl": ""
+        },
+        {
+            "code": "LLY",
+            "name": "Eli Lilly and Company",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 306.48,
+            "change": -8.489496,
+            "percentageChange": -0.0277,
+            "intraDayMinPrice": 304.99,
+            "intraDayMaxPrice": 312.31,
+            "intraYearMinPrice": 220.2,
+            "intraYearMaxPrice": 335.33,
+            "iconUrl": ""
+        },
+        {
+            "code": "HD",
+            "name": "The Home Depot",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 277.93,
+            "change": -18.315587,
+            "percentageChange": -0.0659,
+            "intraDayMinPrice": 277.32,
+            "intraDayMaxPrice": 294.08,
+            "intraYearMinPrice": 264.51,
+            "intraYearMaxPrice": 420.61,
+            "iconUrl": ""
+        },
+        {
+            "code": "BAC",
+            "name": "Bank of America",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 34,
+            "change": -1.224,
+            "percentageChange": -0.036,
+            "intraDayMinPrice": 33.81,
+            "intraDayMaxPrice": 34.72,
+            "intraYearMinPrice": 29.67,
+            "intraYearMaxPrice": 50.11,
+            "iconUrl": ""
+        },
+        {
+            "code": "KO",
+            "name": "The Coca-Cola Company",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 60.47,
+            "change": -1.965275,
+            "percentageChange": -0.0325,
+            "intraDayMinPrice": 60.28,
+            "intraDayMaxPrice": 62.22,
+            "intraYearMinPrice": 52.28,
+            "intraYearMaxPrice": 67.2,
+            "iconUrl": ""
+        },
+        {
+            "code": "PFE",
+            "name": "Pfizer",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 46.19,
+            "change": -1.519651,
+            "percentageChange": -0.0329,
+            "intraDayMinPrice": 46.02,
+            "intraDayMaxPrice": 47.32,
+            "intraYearMinPrice": 40.94,
+            "intraYearMaxPrice": 61.71,
+            "iconUrl": ""
+        },
+        {
+            "code": "ABBV",
+            "name": "AbbVie",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 138.53,
+            "change": -3.615633,
+            "percentageChange": -0.0261,
+            "intraDayMinPrice": 137.49,
+            "intraDayMaxPrice": 141.93,
+            "intraYearMinPrice": 105.56,
+            "intraYearMaxPrice": 175.91,
+            "iconUrl": ""
+        },
+        {
+            "code": "PEP",
+            "name": "PepsiCo",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 167.41,
+            "change": -6.244393,
+            "percentageChange": -0.0373,
+            "intraDayMinPrice": 166.96,
+            "intraDayMaxPrice": 172.83,
+            "intraYearMinPrice": 149.48,
+            "intraYearMaxPrice": 181.07,
+            "iconUrl": ""
+        },
+        {
+            "code": "COST",
+            "name": "Costco",
+            "type": "stock",
+            "precision": 2,
+            "lastPrice": 510.3,
+            "change": -27.65826,
+            "percentageChange": -0.0542,
+            "intraDayMinPrice": 508.69,
+            "intraDayMaxPrice": 532.24,
+            "intraYearMinPrice": 406.51,
+            "intraYearMaxPrice": 612.27,
+            "iconUrl": ""
         }
     ],
 
     "instruments": [
         {
-            "code": "AAPL",
-            "name": "Apple Inc."
+            "code": "BTC-USD",
+            "name": "Bitcoin USD"
+        },
+        {
+            "code": "ETH-USD",
+            "name": "Ethereum USD"
+        },
+        {
+            "code": "DOGE-USD",
+            "name": "Dogecoin USD"
+        },
+        {
+            "code": "XRP-USD",
+            "name": "XRP USD"
+        },
+        {
+            "code": "LTC-USD",
+            "name": "Litecoin USD"
+        },
+        {
+            "code": "USD-EUR",
+            "name": "Euro"
+        },
+        {
+            "code": "USD-JPY",
+            "name": "Japanese yen"
+        },
+        {
+            "code": "USD-GBP",
+            "name": "Pound sterling"
+        },
+        {
+            "code": "USD-AUD",
+            "name": "Australian dollar"
+        },
+        {
+            "code": "USD-NZD",
+            "name": "New Zealand dollar"
+        },
+        {
+            "code": "USD-CAD",
+            "name": "Canadian dollar"
+        },
+        {
+            "code": "USD-CHF",
+            "name": "Swiss franc"
+        },
+        {
+            "code": "USD-CNY",
+            "name": "Renminbi"
         },
         {
             "code": "USD-HKD",
             "name": "Hong Kong dollar"
+        },
+        {
+            "code": "USD-SGD",
+            "name": "Singapore dollar"
+        },
+        {
+            "code": "USD-INR",
+            "name": "Indian rupee"
+        },
+        {
+            "code": "USD-MYR",
+            "name": "Malaysian ringgit"
+        },
+        {
+            "code": "USD-RUB",
+            "name": "Russian ruble"
+        },
+        {
+            "code": "AAPL",
+            "name": "Apple"
+        },
+        {
+            "code": "MSFT",
+            "name": "Microsoft Corporation"
+        },
+        {
+            "code": "GOOG",
+            "name": "Alphabet (Google)"
+        },
+        {
+            "code": "AMZN",
+            "name": "Amazon"
+        },
+        {
+            "code": "TSLA",
+            "name": "Tesla"
+        },
+        {
+            "code": "BRK-B",
+            "name": "Berkshire Hathaway"
+        },
+        {
+            "code": "UNH",
+            "name": "UnitedHealth Group"
+        },
+        {
+            "code": "JNJ",
+            "name": "Johnson & Johnson"
+        },
+        {
+            "code": "V",
+            "name": "Visa"
+        },
+        {
+            "code": "META",
+            "name": "Meta Platforms"
+        },
+        {
+            "code": "XOM",
+            "name": "Exxon Mobil Corporation"
+        },
+        {
+            "code": "WMT",
+            "name": "Walmart"
+        },
+        {
+            "code": "JPM",
+            "name": "JPMorgan Chase"
+        },
+        {
+            "code": "PG",
+            "name": "Procter & Gamble"
+        },
+        {
+            "code": "NVDA",
+            "name": "Nvidia"
+        },
+        {
+            "code": "MA",
+            "name": "Mastercard Incorporated"
+        },
+        {
+            "code": "CVX",
+            "name": "Chevron Corporation"
+        },
+        {
+            "code": "LLY",
+            "name": "Eli Lilly and Company"
+        },
+        {
+            "code": "HD",
+            "name": "The Home Depot"
+        },
+        {
+            "code": "BAC",
+            "name": "Bank of America"
+        },
+        {
+            "code": "KO",
+            "name": "The Coca-Cola Company"
+        },
+        {
+            "code": "PFE",
+            "name": "Pfizer"
+        },
+        {
+            "code": "ABBV",
+            "name": "AbbVie"
+        },
+        {
+            "code": "PEP",
+            "name": "PepsiCo"
+        },
+        {
+            "code": "COST",
+            "name": "Costco"
         }
     ]
 }

@@ -55,7 +55,7 @@ export default function Table({ data, columns, getHeaderProps = defaultPropGette
         {
             columns,
             data,
-            initialState: { pageSize: 15 }
+            initialState: { pageSize: 10 }
         },
         useSortBy,
         usePagination
