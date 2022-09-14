@@ -30,7 +30,7 @@ const formatPriceChangePercentage = (value) => {
 }
 
 const code = {
-    Header: 'Code',
+    Header: 'Symbol',
     accessor: 'code',
     style: { width: '10%' },
     Cell: props => <StyledCode>
@@ -62,7 +62,7 @@ const lastPrice = {
 }
 
 const change = {
-    Header: 'Change (24h)',
+    Header: 'Change',
     accessor: 'change',
     style: { textAlign: 'right' },
     sortType: "basic",
@@ -75,7 +75,7 @@ const change = {
 }
 
 const percentageChange = {
-    Header: '% Change (24h)',
+    Header: '% Change',
     accessor: 'percentageChange',
     style: { textAlign: 'right' },
     sortType: "basic",

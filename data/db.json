@@ -11,7 +11,8 @@
             "intraDayMinPrice": 19544,
             "intraDayMaxPrice": 20049,
             "intraYearMinPrice": 18669,
-            "intraYearMaxPrice": 68925
+            "intraYearMaxPrice": 68925,
+            "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png"
         },
         {
             "code": "ETH-USD",
@@ -24,7 +25,8 @@
             "intraDayMinPrice": 1423.86,
             "intraDayMaxPrice": 1491.19,
             "intraYearMinPrice": 1000.52,
-            "intraYearMaxPrice": 4865.81
+            "intraYearMaxPrice": 4865.81,
+            "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
         },
         {
             "code": "USD-HKD",
