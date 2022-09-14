@@ -4,6 +4,8 @@ import Autocomplete from '@mui/material/Autocomplete';
 import { useNavigate } from 'react-router-dom';
 import useAxios from '../hooks/useAxios';
 import axios from '../api/instruments';
+import { Box, Grid } from '@mui/material';
+
 interface IData
     extends Array<{
         code: string;
@@ -22,16 +24,25 @@ const SearchBar = () => {
 
     return (
         <Autocomplete
-            disablePortal
+            freeSolo
             options={data || []}
             clearOnEscape={true}
             sx={{ width: '80%' }}
+            value={searchWord}
             onChange={(e, value: any, reason) => {
                 if (reason === 'selectOption') {
-                    setSearchWord({ label: '' });
                     navigate(`/quote/${value.code}`);
                 }
             }}
+            getOptionLabel={(option) => (option.code ? `${option.code} ${option.name}` : '')}
+            renderOption={(props, option: any) => (
+                <Box component="li" {...props}>
+                    <Grid container>
+                        <Grid xs={3}>{option.code}</Grid>
+                        <Grid>{option.name}</Grid>
+                    </Grid>
+                </Box>
+            )}
             renderInput={(params) => <TextField {...params} label={label} />}
         />
     );

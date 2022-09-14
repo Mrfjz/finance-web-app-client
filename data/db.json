@@ -59,11 +59,11 @@
     "instruments": [
         {
             "code": "AAPL",
-            "label": "Apple Inc."
+            "name": "Apple Inc."
         },
         {
             "code": "USD-HKD",
-            "label": "Hong Kong dollar"
+            "name": "Hong Kong dollar"
         }
     ]
 }
